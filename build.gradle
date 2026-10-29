@@ -4,7 +4,7 @@ android {
     compileSdk 34
     defaultConfig {
         applicationId 'com.obyavka.game'
-        minSdk 24
+        minSdk 26
         targetSdk 34
         versionCode Integer.parseInt(System.getenv('GITHUB_RUN_NUMBER') ?: '1')
         versionName '1.0'
